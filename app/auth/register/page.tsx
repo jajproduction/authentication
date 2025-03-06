@@ -1,8 +1,8 @@
 import { Bug } from 'lucide-react'
 
-import { FormLogin } from '@/components/FormLogin'
+import { FormRegister } from '@/components/FormRegister'
 
-export default function Home() {
+export default function Register() {
   return (
     <div className='grid min-h-svh lg:grid-cols-2'>
       <div className='flex flex-col gap-4 p-6 md:p-10'>
@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         <div className='flex flex-1 items-center justify-center'>
           <div className='w-full max-w-xs'>
-            <FormLogin />
+            <FormRegister />
           </div>
         </div>
       </div>
